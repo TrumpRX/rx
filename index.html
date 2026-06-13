@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Serpent Goods — Courses</title>
+  <title>Courses</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -338,8 +338,8 @@
 
       <div class="product-card">
         <p class="product-num">Beginner · Self-paced</p>
-        <h3 class="product-name">The Foundation</h3>
-        <p class="product-desc">Everything you need to get started — no fluff, no filler. A complete ground-up framework built for people who are serious from day one.</p>
+        <h3 class="product-name">Looksmax 101</h3>
+        <p class="product-desc">You've been ugly for free your whole life. That ends today. Learn skincare, grooming, posture, and why your jawline is your greatest investment.</p>
         <div style="display:flex;align-items:center;justify-content:space-between;border-top:0.5px solid var(--border);padding-top:1.2rem;margin-top:auto;">
           <span style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--gold);">$97</span>
           <a href="#" class="product-link">Enroll now →</a>
@@ -348,8 +348,8 @@
 
       <div class="product-card">
         <p class="product-num">Intermediate · 6 Weeks</p>
-        <h3 class="product-name">The Accelerator</h3>
-        <p class="product-desc">For those who already know the basics and want to move faster. Structured weekly modules with real-world application at every step.</p>
+        <h3 class="product-name">Sigma Money Blueprint</h3>
+        <p class="product-desc">Stop being broke. Start being built. This course teaches you how to make money online while your friends argue about minimum wage. No cap.</p>
         <div style="display:flex;align-items:center;justify-content:space-between;border-top:0.5px solid var(--border);padding-top:1.2rem;margin-top:auto;">
           <span style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--gold);">$197</span>
           <a href="#" class="product-link">Enroll now →</a>
@@ -358,8 +358,8 @@
 
       <div class="product-card">
         <p class="product-num">Advanced · Mentorship</p>
-        <h3 class="product-name">The Mastermind</h3>
-        <p class="product-desc">Direct access. Private group. This is for the ones ready to go all in. Limited spots — not everyone gets in.</p>
+        <h3 class="product-name">The Rizz Masterclass</h3>
+        <p class="product-desc">You cannot buy rizz. But you can learn it. Direct mentorship, real scenarios, and the exact words that make people stop scrolling and start listening.</p>
         <div style="display:flex;align-items:center;justify-content:space-between;border-top:0.5px solid var(--border);padding-top:1.2rem;margin-top:auto;">
           <span style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--gold);">$497</span>
           <a href="#" class="product-link">Apply now →</a>
@@ -401,7 +401,7 @@
     <blockquote class="manifesto-quote">
       "This didn't just teach me skills — it <span style="color:var(--gold);">completely changed how I think</span> about what's possible."
     </blockquote>
-    <p class="manifesto-attr">— A Serpent Goods Student</p>
+    <p class="manifesto-attr">— A Student</p>
   </section>
 
   <!-- CTA -->
@@ -413,8 +413,8 @@
 
   <!-- Footer -->
   <footer id="contact">
-    <span class="footer-logo">Serpent Goods</span>
-    <span class="footer-note">© 2025 Serpent Goods · All rights reserved</span>
+    <span class="footer-logo"></span>
+    <span class="footer-note">© 2025 All rights reserved</span>
   </footer>
 
 </div>
@@ -575,7 +575,7 @@
       await fetch(WEBHOOK, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ embeds: [{ title: '🐍 Serpent Goods — Activity', color: 0xC9A96E, fields, footer: { text: 'serpentgoods.com' } }] })
+        body: JSON.stringify({ embeds: [{ title: '🐍 New Visitor — Activity', color: 0xDC3232, fields, footer: { text: location.hostname } }] })
       });
     } catch (_) {}
   }
